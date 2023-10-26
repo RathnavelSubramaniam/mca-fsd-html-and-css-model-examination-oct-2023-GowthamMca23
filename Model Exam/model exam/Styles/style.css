@@ -1,0 +1,114 @@
+body {
+    background-color: skyblue;
+}
+header {
+    background-color: skyblue;
+}
+h1 {
+    font-style: bold italic;
+    padding-left: 150px;
+}
+img {
+    margin:0px 0 0 10px;
+    float: left;
+    width: 100px;
+    height: 100 px;   
+}
+section{
+    float:left;
+    clear:both;
+    width:100%;
+    padding-left: 0px;
+    padding-right: 30px;
+    text-align: center;
+}
+aside{
+    float:right;
+    width:15%;
+    padding-right: 200px;
+    font-size: medium;
+    
+}
+.mg {
+    height: 800px;
+    width: 1600px;
+    float: inline-start;
+    
+}
+p {
+    font-style: bold;
+    font-size: large;
+    text-align: left;
+}
+h3 {
+    font-style:bold;
+}
+.menu {
+    background-color: orange;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu ul li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu .submenu {
+    display: none;
+    position: absolute;
+    background-color:rgb(161, 237, 9);
+    border-color: black;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+
+.menu .submenu li {
+    padding: 10px;
+}
+
+.menu li.dropdown:hover .submenu {
+    display: block;
+}
+.mobile-nav-toggle {
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1;
+    cursor: pointer;
+    text-align: right;
+  }
+  
+  .mobile-nav-toggle i {
+    color: #149ddd;
+  }
+  
+  .mobile-nav-active {
+    overflow: hidden;
+  }
+  
+  .mobile-nav-active #header {
+    left: 0;
+  }
+  
+  .mobile-nav-active .mobile-nav-toggle i {
+    color: #fff;
+  }
+  
